@@ -312,9 +312,9 @@ SweetSerendipity.html
                 </div>
         </div>
     </div>
-    
 </body>
 </html>
+<br>
 "CSS for Landing Page"
 <br>
 StylesSweet.css
