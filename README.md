@@ -315,3 +315,343 @@ SweetSerendipity.html
     
 </body>
 </html>
+"CSS for Landing Page"
+<br>
+StylesSweet.css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 850px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: bisque;
+    background-image: url(SignatureChocolateCake.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(169, 38, 38, 0.27);
+    position: fixed;
+}
+.logo{
+    padding: 15px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+    color: bisque;
+    position: relative;
+}
+.menu a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 80%;
+    border-bottom: 2px solid rgb(99, 7, 7);
+    transition: 0.4s linear;
+}
+.menu a:hover:before{
+    width: 95%;
+}
+.menu{
+    a:link{color: bisque;}
+    a:visited{color: bisque;}
+    a:hover{color: rgb(99, 7, 7);}
+    a:active{color:rgb(30, 28, 28)}
+}
+/* .menu{
+    a:hover{font-size: 22px;}
+} */
+.searchBar{
+    padding: 15px;
+    color: bisque;
+    height: 40px;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: bisque;
+    color: brown;
+    font-weight: 300px;
+    border-radius: 15px 15px 15px 15px;
+}
+.searchInput{
+    background-color: bisque;
+    color: brown;
+    flex-grow: 1;
+    height: 40px;
+    border: 0px;
+    border-radius: 0px 15px 15px 0px;
+}
+.shopNow a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+    color: brown;
+    background-color: bisque;
+    border-radius: 15px;
+}
+.shopNow{
+    a:link{color: brown;}
+    a:visited{color: brown;}
+    a:hover{background-color: rgba(169, 38, 38, 0.27);}
+    a:hover{color: bisque;}
+    a:hover{border: 2px solid bisque;}
+    a:active{color: rgb(30, 28, 28);}
+    a:active{border-color: rgb(30, 28, 28);}
+}
+.FeaturedProduct{
+    width: 500px;
+    padding-left: 100px;
+    padding-top: 270px;
+}
+.FeaturedProduct h1{
+    color: beige;
+    font-size: 53px;
+}
+.FeaturedProduct p{
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+}
+.coreValues{
+    padding: 50px;
+    width: 100%;
+    height: 450px;
+    background-color: beige;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.coreValues strong{
+    font-size: 50px;
+}
+.quality{
+    padding: 15px;
+    width: 400px;
+    height: 320px;
+    margin: 20px;
+    text-align: justify;
+    background-color: rgb(233, 204, 168);
+    box-shadow: 2px 2px 5px rgb(52, 55, 56);
+}
+.innovation{
+    padding: 15px;
+    width: 400px;
+    height: 320px;
+    margin: 20px;
+    text-align: justify;
+    background-color: rgb(233, 204, 168);
+    box-shadow: 2px 2px 5px rgb(52, 55, 56);
+}
+.delight{
+    padding: 15px;
+    width: 400px;
+    height: 320px;
+    margin: 20px;
+    text-align: justify;
+    background-color: rgb(233, 204, 168);
+    box-shadow: 2px 2px 5px rgb(52, 55, 56)
+}
+.quality h2{
+    text-align: center;
+}
+.innovation h2{
+    text-align: center;
+}
+.delight h2{
+    text-align: center;
+}
+.mainMenu{
+    background-color: beige;
+}
+.CakeHeading h1{
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.CakeItems{
+    margin: 10px;
+    padding: 15x;
+    display: flex;
+    align-items: center;
+    overflow-y: auto;
+}
+.label p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    margin: 10px;
+}
+.CookieHeading h1{
+    margin: 10px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.CookieItems{
+    margin: 10px;
+    padding: 15x;
+    display: flex;
+    align-items: center;
+    overflow-y: auto;
+}
+.PastryHeading h1{
+    margin: 10px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.PastryItems{
+    margin: 10px;
+    padding: 15x;
+    display: flex;
+    align-items: center;
+    overflow-y: auto;
+}
+.ChocolateHeading h1{
+    margin: 10px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ChocolateItems{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15x;
+    display: flex;
+    align-items: center;
+    overflow-y: auto;
+}
+.bottom{
+    background-color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.NewsLetter{
+    padding: 15px;
+    text-align: center;
+    margin-left: 60px;
+}
+.Head{
+    color: brown;
+    font-size: 50px;
+    padding: 15px;
+}
+.SubHead{
+    color: brown;
+    font-size: 30px;
+    padding: 15px;
+}
+.Offer{
+    font-size: 20px;
+    padding: 15px;
+}
+.SignUpForm{
+    width: 500px;
+    padding: 15px;
+    margin-top: 40px;
+    margin-right: 120px;
+    height: 390px;
+    background-color: brown;
+    border-radius: 15px;
+}
+.SignUpForm label{
+    margin: 12px 42px;
+    padding: 5px;
+    color: beige;
+    font-size: 20px;
+}
+input[type=text]{
+    height: 20px;
+    padding-right: 12px 20px;
+    margin: 10px 42px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: beige;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-grow: 1;
+    width: 380px;
+    height: 40px;
+    border: 0px;
+    border-radius: 15px 15px 15px 15px;
+}
+input[type=submit]{
+    width: 20%;
+    background-color: beige;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 14px 20px;
+    margin: 10px 42px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: brown;
+    color: beige;
+    border: 2px solid beige;
+    border-radius: 15px;
+}
+input[type=submit]:active{
+    background-color: brown;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.note{
+    margin: 10px 42px;
+    font-size: 13px; 
+    color: beige;
+}
+.About{
+    background-color: beige;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ContactUs{
+    background-color: brown;
+    color: beige;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ContactHead{
+    font-size: 30px;
+    text-align: center;
+}
+.Info{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.social a{
+    color: beige;
+    padding-left: 25px;
+}
